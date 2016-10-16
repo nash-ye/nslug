@@ -12,7 +12,7 @@ namespace NSlug;
  *
  * @since 0.1
  */
-class SlugGenerator
+class SlugGenerator implements SlugGeneratorInterface
 {
     /**
      * Generator options.
