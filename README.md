@@ -1,4 +1,9 @@
 # nSlug
+
+[![Latest Stable Version](https://poser.pugx.org/nash-ye/nslug/v/stable)](https://packagist.org/packages/nash-ye/nslug)
+[![Total Downloads](https://poser.pugx.org/nash-ye/nslug/downloads)](https://packagist.org/packages/nash-ye/nslug)
+[![License](https://poser.pugx.org/nash-ye/nslug/license)](https://packagist.org/packages/nash-ye/nslug)
+
 Yet another unicode slug generator library.
 
 ## Usage
@@ -18,7 +23,8 @@ echo $slugGenerator->generate('Hello World'); // Prints 'hello-world'.
 echo $slugGenerator->generate('Life is too short!'); // Prints 'life-is-too-short'.
 
 // Arabic strings.
-echo $slugGenerator->generate('صباح جميل'); // Prints 'صباح جميل'.
+echo $slugGenerator->generate('صباح جميل'); // Prints 'صباح-جميل'.
+echo $slugGenerator->generate('مساء الخير'); // Prints 'مساء-الخير'.
 ```
 
 ## Options
